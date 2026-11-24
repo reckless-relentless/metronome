@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000B8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD300;
+    min-width: 500px;
+    min-height: 600px;
+    zoom: 1.5;
+    text-align: center;
+}
+#bpm{
+    color: #E8002D;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+@media(max-width:600px){
+    #bpm{
+        gap: 10px;
+    }
+}
